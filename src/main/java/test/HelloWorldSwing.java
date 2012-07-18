@@ -41,21 +41,21 @@ public class HelloWorldSwing {
 		mainPanel.add(label, BorderLayout.PAGE_START);
 		mainPanel.add(field, BorderLayout.PAGE_END);
 
-//		JPanel leftPanel = new JPanel(new FlowLayout());
-//		leftPanel.setPreferredSize(new Dimension(100, 200));
-//		leftPanel.setBackground(Color.BLUE);
-//
-//		JPanel centerPanel = new JPanel(new FlowLayout());
-//		centerPanel.setPreferredSize(new Dimension(300, 200));
-//		centerPanel.setBackground(Color.RED);
-//
-//		JPanel rightPanel = new JPanel(new FlowLayout());
-//		rightPanel.setPreferredSize(new Dimension(100, 200));
-//		rightPanel.setBackground(Color.BLUE);
-//
-//		mainPanel.add(leftPanel, BorderLayout.LINE_START);
-//		mainPanel.add(centerPanel, BorderLayout.CENTER);
-//		mainPanel.add(rightPanel, BorderLayout.LINE_END);
+		JPanel leftPanel = new JPanel(new FlowLayout());
+		leftPanel.setPreferredSize(new Dimension(100, 200));
+		leftPanel.setBackground(Color.BLUE);
+
+		JPanel centerPanel = new JPanel(new FlowLayout());
+		centerPanel.setPreferredSize(new Dimension(300, 200));
+		centerPanel.setBackground(Color.RED);
+
+		JPanel rightPanel = new JPanel(new FlowLayout());
+		rightPanel.setPreferredSize(new Dimension(100, 200));
+		rightPanel.setBackground(Color.BLUE);
+
+		mainPanel.add(leftPanel, BorderLayout.LINE_START);
+		mainPanel.add(centerPanel, BorderLayout.CENTER);
+		mainPanel.add(rightPanel, BorderLayout.LINE_END);
 		frame.getContentPane().add(mainPanel);
 
 		// Display the window.
